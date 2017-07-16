@@ -1,5 +1,6 @@
 import os
 import sys
+import logging
 import wsgiref.simple_server
 from argparse import ArgumentParser
 
@@ -27,6 +28,7 @@ if channel_access_token is None:
 
 line_bot_api = LineBotApi(channel_access_token)
 parser = WebhookParser(channel_secret)
+logging.info("TEST - loaded stuff")
 
 
 def application(environ, start_response):
