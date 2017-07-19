@@ -84,9 +84,8 @@ if __name__ == '__main__':
     arg_parser = ArgumentParser(
         usage='Usage: python ' + __file__ + ' [--port <port>] [--help]'
     )
-    arg_parser.add_argument('-p', '--port', default=8000, type=int,
-                            help='port')
     options = arg_parser.parse_args()
-
-    httpd = wsgiref.simple_server.make_server('', options.port, application)
+    logging.info('get port')
+    p = int(os.environ.get('PORT', 8000))
+    httpd = wsgiref.simple_server.make_server('', p, application)
     httpd.serve_forever()

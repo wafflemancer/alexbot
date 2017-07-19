@@ -1,1 +1,1 @@
-web: python app.py -p 5287
+web: python app.py
