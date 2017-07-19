@@ -72,7 +72,12 @@ def application(environ, start_response):
                 event.reply_token,
                 TextSendMessage(text=raws.latest())
             )
-        elif 'yubera' in msg:
+        elif '!pad' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text=raws.pad())
+            )
+        elif '!hello' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text='... ...')

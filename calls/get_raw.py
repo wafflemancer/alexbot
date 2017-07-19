@@ -11,3 +11,9 @@ def latest():
     page = urlopen(link)
     soup = BeautifulSoup(page, "html.parser")
     return base+soup.select('td[class~=title] a')[0]['href']
+
+
+def pad():
+    link = "http://babokim-scans.ddns.net:9001/p/r.74c75762216421fe02843be5edd86cf0"
+    temp_message = " ... i tried"
+    return link + temp_message
