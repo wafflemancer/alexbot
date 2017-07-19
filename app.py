@@ -3,7 +3,9 @@ import sys
 import logging
 import wsgiref.simple_server
 from argparse import ArgumentParser
-
+# import bot stuff
+import calls.get_raw as raws
+# import line stuff
 from builtins import bytes
 from linebot import (
     LineBotApi, WebhookParser
@@ -64,10 +66,19 @@ def application(environ, start_response):
         if not isinstance(event.message, TextMessage):
             continue
 
-        line_bot_api.reply_message(
-            event.reply_token,
-            TextSendMessage(text=event.message.text)
-        )
+        msg = event.message.text
+        if '!raw' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text=raws.latest())
+            )
+        elif 'yubera' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        else:
+            continue
 
     start_response('200 OK', [])
     return create_body('OK')
