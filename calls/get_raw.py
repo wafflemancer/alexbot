@@ -14,6 +14,6 @@ def latest():
 
 
 def pad():
-    link = "http://babokim-scans.ddns.net:9001/p/r.74c75762216421fe02843be5edd86cf0"
-    temp_message = " ... i tried"
+    link = "https://goo.gl/y6mnJH"
+    temp_message = " i tried"
     return link + temp_message
