@@ -195,7 +195,7 @@ def application(environ, start_response):
         elif '!joke5' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
-                TextSendMessage(text='I'm having an introvert party and you\'re all not invited.')
+                TextSendMessage(text='I\'m having an introvert party and you\'re all not invited.')
             )
         elif '!joke6' in msg:
             line_bot_api.reply_message(
@@ -330,7 +330,7 @@ def application(environ, start_response):
         elif 'Alex, make it rain' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
-                TextSendMessage(text='...That's Varuna\'s job.')
+                TextSendMessage(text='...That\'s Varuna\'s job.')
             )
         elif 'Alex, I am cold' in msg:
             line_bot_api.reply_message(
