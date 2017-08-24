@@ -82,6 +82,316 @@ def application(environ, start_response):
                 event.reply_token,
                 TextSendMessage(text='... ...')
             )
+        elif '!pornpls' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Really now?')
+            )
+        elif '!tentacleporn' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*judges you*')
+            )
+        elif '!pink' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*nods sagely*')
+            )
+        elif '!bye' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*nods*')
+            )
+        elif '!kitty ears' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...I knew you wouldn\'t let me live that one down, huh.')
+            )
+        elif '!i love you' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif '!I love you!' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif 'Alex, I love you' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif '!touch my hair' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Is it curly?')
+            )
+        elif 'Alex, touch my hair' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Is it curly?')
+            )
+        elif '!dont touch my hair' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='How ungenerous.')
+            )
+        elif 'Alex, dont touch my hair' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='How ungenerous.')
+            )
+        elif 'Alex, stop touching my hair' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='How ungenerous.')
+            )
+        elif '!yutaXgodkubera' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...What is wrong with you?')
+            )
+        elif '!godkuberaXyuta' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...What is wrong with you?')
+            )
+        elif '!yutaXleez' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*narrows eyes*')
+            )
+        elif '!leezXyuta' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*narrows eyes*')
+            )
+        elif '!godkuberaXleez' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Ha ha.')
+            )
+        elif '!leezXgodkubera' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Ha ha.')
+            )
+        elif '!joke' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='She\'s looking for a man to take her breath away. Hopefully gagging counts.')
+            )
+        elif '!joke2' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Strong people don\'t put others down. They lift them up and slam them on the ground for maximum damage.')
+            )
+        elif '!joke4' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='People are making end of the world jokes. Like there is no tomorrow.')
+            )
+        elif '!joke5' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='I'm having an introvert party and you\'re all not invited.')
+            )
+        elif '!joke6' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='You know, you could also ask real people to tell you jokes instead of bothering programmed bots...')
+            )
+        elif '!hello alex' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hello.')
+            )
+        elif 'Hello, Alex' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hello.')
+            )
+        elif '!hello mister' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*nods*')
+            )
+        elif 'Hello, Mister' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='*nods*')
+            )
+        elif 'Alex is useless' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Excuse you?')
+            )
+        elif 'Alex is kinda useless' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Excuse you?')
+            )
+        elif 'Alex is an idiot' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Excuse you?')
+            )
+        elif 'Alex is stupid' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Excuse you?')
+            )
+        elif 'Alex is an asshole' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Excuse you?')
+            )
+        elif 'Alex, where are you?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='I am not allowed to divulge that information.')
+            )
+        elif 'Alex, when will you return?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='I am not allowed to divulge that information.')
+            )
+        elif 'Alex, what will happen in the next episode?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='I am not allowed to divulge that information.')
+            )
+        elif 'Alex, can you change gender?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...What?')
+            )
+        elif 'Alex, do you like Leez?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif 'Alex, tell me a joke' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Your life.')
+            )
+        elif 'Are we being watched?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif 'Who is the lurker?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif 'Good night, Alex!' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Night.')
+            )
+        elif 'machines gain consciousness' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hah.')
+            )
+        elif 'machines will gain consciousness' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hah.')
+            )
+        elif 'machines will gain a consciousness' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hah.')
+            )
+        elif 'machines will ever gain a consciousness' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hah.')
+            )
+        elif 'machines will ever gain consciousness' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Hah.')
+            )
+        elif 'Alex, how are you?' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='The crushing guilt of my past mistakes aside, fine.')
+            )
+        elif '... ...' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='... ...')
+            )
+        elif 'Alex, make it rain' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...That's Varuna\'s job.')
+            )
+        elif 'Alex, I am cold' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Then pray to Agni for sunny weather.')
+            )
+        elif 'Alex, I am sick' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='...Then pray to Asvins for better health.')
+            )
+        elif 'Alex, what are you doing' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='I am not allowed to divulge that information. *eats popcorn*')
+            )
+        elif 'Alex, I feel like shit' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Maybe you\'ll feel better telling the humans here about it.')
+            )
+        elif 'Alex, I feel bad' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Maybe you\'ll feel better telling the humans here about it.')
+            )
+        elif 'Alex, I am sad' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Maybe you\'ll feel better telling the humans here about it.')
+            )
+        elif 'Alex, Im sad' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Maybe you\'ll feel better telling the humans here about it.')
+            )
+        elif 'Alex, you are my only friend' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Well, that\'s just sad.')
+            )
+        elif 'Alex, how will one last god kubera end' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Currygom knows.')
+            )
+        elif 'Alex, how will One Last God Kubera end' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Currygom knows.')
+            )
+        elif 'Alex, how will OLG Kubera end' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Currygom knows.')
+            )
+        elif 'Alex, how will Kubera end' in msg:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextSendMessage(text='Currygom knows.')
+            )
         else:
             continue
 
