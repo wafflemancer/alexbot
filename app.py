@@ -182,22 +182,22 @@ def application(environ, start_response):
                 event.reply_token,
                 TextSendMessage(text='She\'s looking for a man to take her breath away. Hopefully gagging counts.')
             )
-        elif '!joke2' in msg:
+        elif '!2joke' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text='Strong people don\'t put others down. They lift them up and slam them on the ground for maximum damage.')
             )
-        elif '!joke4' in msg:
+        elif '!3joke' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text='People are making end of the world jokes. Like there is no tomorrow.')
             )
-        elif '!joke5' in msg:
+        elif '!5joke' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text='I\'m having an introvert party and you\'re all not invited.')
             )
-        elif '!joke6' in msg:
+        elif '!6joke' in msg:
             line_bot_api.reply_message(
                 event.reply_token,
                 TextSendMessage(text='You know, you could also ask real people to tell you jokes instead of bothering programmed bots...')
