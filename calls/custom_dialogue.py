@@ -11,6 +11,7 @@ def dialogue_bank():
             , 'bye': ('*nods*', None)
             , 'kitty ears': ('...i knew you wouldn\'t let me live that one down, huh.', None)
             , 'i love you': ('... ...', None)
+            , 'i hate you': ('...and?', None)
             , 'touch my hair': ('...is it curly?', None)
             , 'dont touch my hair': ('how ungenerous.', None)
             , 'stop touching my hair': ('how ungenerous.', None)

@@ -107,11 +107,6 @@ def application(environ, start_response):
                 event.reply_token,
                 TextSendMessage(text='...night.')
             )
-        elif 'Alex, I hate you' in msg:
-            line_bot_api.reply_message(
-                event.reply_token,
-                TextSendMessage(text='...And?')
-            )
         else:
             continue
     start_response('200 OK', [])
