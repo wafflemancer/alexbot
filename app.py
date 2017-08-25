@@ -68,23 +68,23 @@ def application(environ, start_response):
         msg = event.message.text
         msg = msg.lower()
         # function calls
-        if msg[0] == '!':
-            answer = cutil.get_function(msg)
+        if (msg[0] == '!') and (len(msg) > 1):
+            answer = cutil.get_function(msg[1:])
             if answer is not None:
                 line_bot_api.reply_message(
                     event.reply_token,
                     TextSendMessage(text=answer)
                 )
         # normal dialogue calls
-        elif msg[0:5] == 'alex,':
-            answer = cutil.get_dialogue(msg)
+        elif (msg[0:5] == 'alex,') and (len(msg) > 5):
+            answer = cutil.get_dialogue(msg[5:])
             if answer is not None:
                 line_bot_api.reply_message(
                     event.reply_token,
                     TextSendMessage(text=answer)
                 )
-        elif msg[0:4] == 'alex':
-            answer = cutil.get_dialogue(msg)
+        elif (msg[0:4] == 'alex') and (len(msg) > 4):
+            answer = cutil.get_dialogue(msg[4:])
             if answer is not None:
                 line_bot_api.reply_message(
                     event.reply_token,

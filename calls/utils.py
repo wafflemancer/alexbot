@@ -2,12 +2,12 @@ import calls.get_raw as raws
 import calls.custom_dialogue as cd
 
 
-all_function = {'!raw': raws.latest(),
-                '!pad': raws.pad()}
+all_function = {'raw': raws.latest(),
+                'pad': raws.pad()}
 
 
 def get_function(msg):
-    if msg == '!help':
+    if msg == 'help':
         return all_function.keys()
     elif msg in all_function.keys():
         return all_function[msg]
