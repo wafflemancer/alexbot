@@ -94,7 +94,7 @@ def application(environ, start_response):
         elif ('hello' in msg or 'hi' in msg) and ('alex' in msg):
             line_bot_api.reply_message(
                 event.reply_token,
-                TextSendMessage(text='...hello.')
+                TextSendMessage(text='...Hello.')
             )
         elif ('hello' in msg or 'hi' in msg) and ('mister' in msg):
             line_bot_api.reply_message(
@@ -105,7 +105,7 @@ def application(environ, start_response):
                                                      'alex' in msg):
             line_bot_api.reply_message(
                 event.reply_token,
-                TextSendMessage(text='...night.')
+                TextSendMessage(text='...Night.')
             )
         else:
             continue
