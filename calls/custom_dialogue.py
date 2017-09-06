@@ -24,6 +24,7 @@ def dialogue_bank():
             , 'joke': ('She\'s looking for a man to take her breath away. Hopefully gagging counts.', None)
             , '2joke': ('Strong people don\'t put others down. They lift them up and slam them on the ground for maximum damage.', None)
             , '3joke': ('People are making end of the world jokes. Like there is no tomorrow.', None)
+            , '4joke': ('*generic joke*')
             , '5joke': ('I\'m having an introvert party and you\'re all not invited.', None)
             , '6joke': ('You know, you could also ask real people to tell you jokes instead of bothering programmed bots...', None)
             , 'is useless': ('...Excuse you?', None)
