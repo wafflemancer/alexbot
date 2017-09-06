@@ -60,5 +60,7 @@ def dialogue_bank():
             , 'how will one last god kubera end': ('Currygom knows.', None)
             , 'how will olg kubera end': ('Currygom knows.', None)
             , 'how will kubera end': ('Currygom knows.', None)
+            , 'are you ignoring me': ('... ...')
+            , 'are you ignoring us': ('... ...')
             }
     return bank
