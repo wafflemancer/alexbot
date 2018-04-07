@@ -4,13 +4,14 @@
 # be randomized.                
 # NUM_JOKES = 6
         
-from random import randint
+#from random import randint
 
 def rand_joke():
     NUM_JOKES = 6
     bank = cd.dialogue_bank()
     msg = msg.strip()
-    num = randint(1,NUM_JOKES)
+    #num = randint(1,NUM_JOKES)
+    num = '4'
     jokeselect = str(num) + 'joke'
     if jokeselect in bank.keys():
         convo = bank[jokeselect]
