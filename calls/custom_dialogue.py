@@ -25,7 +25,7 @@ def dialogue_bank():
             , '1joke': ('She\'s looking for a man to take her breath away. Hopefully gagging counts.', None)
             , '2joke': ('Strong people don\'t put others down. They lift them up and slam them on the ground for maximum damage.', None)
             , '3joke': ('People are making end of the world jokes. Like there is no tomorrow.', None)
-            , '4joke': ('*generic joke*')
+            , '4joke': ('*generic joke*', None)
             , '5joke': ('I\'m having an introvert party and you\'re all not invited.', None)
             , '6joke': ('You know, you could also ask real people to tell you jokes instead of bothering programmed bots...', None)
             , 'is useless': ('...Excuse you?', None)
@@ -61,7 +61,7 @@ def dialogue_bank():
             , 'how will one last god kubera end': ('Currygom knows.', None)
             , 'how will olg kubera end': ('Currygom knows.', None)
             , 'how will kubera end': ('Currygom knows.', None)
-            , 'are you ignoring me': ('... ...')
-            , 'are you ignoring us': ('... ...')
+            , 'are you ignoring me': ('... ...', None)
+            , 'are you ignoring us': ('... ...', None)
             }
     return bank
