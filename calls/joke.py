@@ -5,6 +5,7 @@
 # NUM_JOKES = 6
         
 #from random import randint
+import custom_dialogue as cd
 
 def rand_joke():
     NUM_JOKES = 6
