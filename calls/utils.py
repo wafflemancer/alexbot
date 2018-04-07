@@ -39,19 +39,19 @@ def get_dialogue(msg):
 # be randomized, as well as line #.                
 NUM_JOKES = 6
                 
-def get_joke(msg):
+def rand_joke():
     bank = cd.dialogue_bank()
     msg = msg.strip()
     num = randint(1,NUM_JOKES)
-    joke = str(num) + msg
-    if joke in bank.keys():
-        convo = bank[joke]
+    jokeselect = str(num) + 'joke'
+    if jokeselect in bank.keys():
+        convo = bank[jokeselect]
             if convo[1] is None:
                 return convo[0]
             else:
-                if convo[1](joke):
+                if convo[1](jokeselect):
                     return convo[0]
                 else:
                     return None
-     else:
+    else:
         return None
