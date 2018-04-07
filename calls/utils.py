@@ -36,10 +36,11 @@ def get_dialogue(msg):
 # Get random joke from custom dialogue
 # Note: due to legacy implementation,
 # number of jokes is hardcoded to
-# be randomized, as well as line #.                
-NUM_JOKES = 6
+# be randomized.                
+# NUM_JOKES = 6
                 
 def rand_joke():
+    NUM_JOKES = 6
     bank = cd.dialogue_bank()
     msg = msg.strip()
     num = randint(1,NUM_JOKES)
