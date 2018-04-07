@@ -22,6 +22,7 @@ def dialogue_bank():
             , 'godkuberaxleez': ('Ha ha.', None)
             , 'leezxgodkubera': ('Ha ha.', None)
             , 'joke': ('She\'s looking for a man to take her breath away. Hopefully gagging counts.', None)
+            , '1joke': ('She\'s looking for a man to take her breath away. Hopefully gagging counts.', None)
             , '2joke': ('Strong people don\'t put others down. They lift them up and slam them on the ground for maximum damage.', None)
             , '3joke': ('People are making end of the world jokes. Like there is no tomorrow.', None)
             , '4joke': ('*generic joke*')
