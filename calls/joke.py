@@ -12,7 +12,8 @@ def rand_joke():
     msg = msg.strip()
     #num = randint(1,NUM_JOKES)
     num = '4'
-    jokeselect = str(num) + 'joke'
+    #jokeselect = str(num) + 'joke'
+    jokeselect = num + 'joke'
     if jokeselect in bank.keys():
         convo = bank[jokeselect]
             if convo[1] is None:
