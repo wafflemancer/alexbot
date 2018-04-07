@@ -4,7 +4,7 @@
 # be randomized.                
 # NUM_JOKES = 6
         
-from random import randint as randint
+from random import randint
 
 def rand_joke():
     NUM_JOKES = 6
