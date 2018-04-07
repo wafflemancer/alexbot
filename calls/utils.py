@@ -4,7 +4,7 @@ import calls.custom_dialogue as cd
 
 all_function = {'raw': raws.latest(),
                 'pad': raws.pad(),
-                'joke: get_joke()}
+                'joke': get_joke()}
 
  
 
