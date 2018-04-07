@@ -7,7 +7,7 @@ all_function = {'raw': raws.latest(),
                 'pad': raws.pad(),
                 'joke': jk.rand_joke()}
 
- 
+
 
 def get_function(msg):
     if msg == 'help':
@@ -32,5 +32,3 @@ def get_dialogue(msg):
                 return None
     else:
         return None
-
-                
