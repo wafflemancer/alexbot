@@ -1,10 +1,10 @@
 import calls.get_raw as raws
 import calls.custom_dialogue as cd
-import calls.joke as jk
+#import calls.joke as jk
 
 
 all_function = {'raw': raws.latest(),
-                'pad': raws.pad(),
+                'pad': raws.pad()#,
                 #'joke': jk.rand_joke()}
                }
 
