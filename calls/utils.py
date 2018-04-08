@@ -5,7 +5,8 @@ import calls.joke as jk
 
 all_function = {'raw': raws.latest(),
                 'pad': raws.pad(),
-                'joke': jk.rand_joke()}
+                #'joke': jk.rand_joke()}
+               }
 
 
 
