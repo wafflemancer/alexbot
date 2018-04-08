@@ -4,9 +4,9 @@ import calls.custom_dialogue as cd
 
 
 all_function = {'raw': raws.latest(),
-                'pad': raws.pad()#,
+                'pad': raws.pad()}#,
                 #'joke': jk.rand_joke()}
-               }
+               
 
 
 
