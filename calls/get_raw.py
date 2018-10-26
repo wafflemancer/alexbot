@@ -14,6 +14,6 @@ def latest():
 
 
 def pad():
-    link = "https://goo.gl/y6mnJH"
+    link = "https://bit.ly/2xWygEl"
     temp_message = " i tried"
     return link + temp_message
