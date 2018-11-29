@@ -1,20 +1,20 @@
 import calls.get_raw as raws
 import calls.custom_dialogue as cd
-#import calls.joke as jk
+import calls.attribute as atb
 
 
-all_function = {'raw': raws.latest(),
-                'pad': raws.pad()}#,
-                #'joke': jk.rand_joke()}
-               
-
-
+basic_functions = {'raw': raws.latest(),
+                'pad': raws.pad()}
 
 def get_function(msg):
     if msg == 'help':
-        return all_function.keys()
-    elif msg in all_function.keys():
-        return all_function[msg]
+        return 'sorry i can\'t tell you'
+    elif msg in basic_functions.keys():
+        return basic_functions[msg]
+    elif msg[0:8] == 'birthday':
+        return atb.get_attributes(msg[9:])
+    elif msg[0:8] == 'today':
+        return atb.get_today()
     else:
         return get_dialogue(msg)
 
@@ -24,12 +24,6 @@ def get_dialogue(msg):
     msg = msg.strip()
     if msg in bank.keys():
         convo = bank[msg]
-        if convo[1] is None:
-            return convo[0]
-        else:
-            if convo[1](msg):
-                return convo[0]
-            else:
-                return None
+        return convo[0]
     else:
         return None
